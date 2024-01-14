@@ -48,6 +48,87 @@
     width: 90%;
   }
 
+  .about-container{
+    grid-template-columns: 1fr;
+
+    .right-about{
+      grid-template-columns: 1fr;
+      padding-top: 2rem;
+    }
+
+    .left-about{
+      padding-right: 0;
+
+      p{
+        padding-left: 0;
+      }
+    }
+  }
+
+  .timeline{
+    grid-template-columns: 1fr;
+    padding-bottom: 5rem;
+  }
+
+  .about-stats{
+
+    .progress-bars{
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .portfolios{
+    grid-template-columns: 1fr;
+    padding-bottom: 5rem;
+  }
+
+  .blogs{
+    grid-template-columns: 1fr;
+    padding-bottom: 5rem;
+  }
+
+  .contacts-content-container{
+    flex-direction: column;
+
+    .right-contacts{
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  }
+
+  .contacts-content-container .right-contacts .input-control-extra{
+    flex-direction: column;
+  }
+
+  .contacts-content-container .right-contacts .input-control-extra :first-child {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .contacts-content-container .right-contacts .input-control-extra :last-child {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .main-title{
+
+    h2{
+      font-size: 2rem;
+
+      span{
+        font-size: 2.5rem;
+      }
+
+      .bg-text{
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .section{
+    padding: 2rem 2rem ;
+  }
+
   .controls{
     top: auto;
     bottom: 0;
