@@ -54,6 +54,7 @@ a{
 
 header{
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
   color: var(--color-white);
   overflow: hidden;
 }
@@ -811,3 +812,6 @@ section{
     }
   }
 }
+
+/* Import Partial SCSS file */
+@import './media';
