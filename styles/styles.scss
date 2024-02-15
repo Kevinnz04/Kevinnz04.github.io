@@ -588,6 +588,14 @@ section{
       border-radius: 15px;
     }
 
+    p{
+      display: flex;
+      font-size: 1.1rem;
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+    }
+
     .hover-item{
       width: 100%;
       height: 100%;

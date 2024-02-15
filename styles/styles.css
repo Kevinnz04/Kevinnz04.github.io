@@ -522,6 +522,13 @@ section {
   object-fit: cover;
   border-radius: 15px;
 }
+.portfolios .portfolio-item p {
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
 .portfolios .portfolio-item .hover-item {
   width: 100%;
   height: 100%;
