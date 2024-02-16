@@ -682,12 +682,11 @@ section{
       .contacts-item{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: left;
 
         p{
           margin: 0.5rem 0 !important;
           padding: 0 !important;
-
         }
 
         .icon{
@@ -705,7 +704,8 @@ section{
 
     .contact-icon{
       display: flex;
-      justify-content: space-between;
+      justify-content: left;
+      padding-left: 0;
       margin-top: 2rem;
 
       a{
@@ -718,7 +718,7 @@ section{
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        margin: 0 1.1rem;
+        margin-right: 1.1rem;
         transition: all 0.5s ease-in-out;
 
         &:hover{
